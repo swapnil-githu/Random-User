@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<!-- the entire body must be written by student -->
+	<h3>User Dashboard</h3>
+	<div class="container">
+
+		<div style="display:flex; justify-content:center;">
+			<span></span>
+			<img id="img">
+		</div>
+
+		<div style="display:flex; justify-content: center;">
+			<span>Name :</span>
+			<span id="name"></span>
+		</div>
+
+		<div  id="age" style="display:none; justify-content: center;">
+			<span>Age :</span>
+		</div>
+
+		<div id="phone" style="display:none; justify-content: center;">
+			<span>phone :</span>
+			<span ></span>
+		</div>
+
+		<div id="email" style="display:none; justify-content:center;">
+			<span>Email :</span>
+
+     <!--<div id="gender" style="display:none; justify-content:center;">
+        <span>Gender :</span>-->
+			<!-- <div>
+				Inline Style -> display: flex
+				External Style -> display : block
+				Parent (Inheritence) -> display: inline-block 
+				// Cascading                               60        100  40 20 10
+				// CSS specificity  -> CSS selectors -> tagname , id , class , text , data-id
+			</div> -->
+		</div>
+
+		<div  style="display:flex; justify-content: space-around;">
+			<button data-id = 'age'>Age</button>
+			<button data-id = 'phone'>Phone</button>
+			<button data-id = 'email'>Email</button>
+      <!--<button data-id = 'gender'>Gender</button>-->
+		</div>
+
+		<div style="display:flex; justify-content: center;">
+			<button id="getUser">Fetch user</button>
+		</div>
+	</div>
+    <script type="text/javascript" src="./script.js">
+</script>
+
+</body>
+
+</html>

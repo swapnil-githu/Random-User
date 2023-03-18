@@ -1,0 +1,33 @@
+
+/* Your CSS Code here. */
+
+body {
+  
+  color: #FFFFFF;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(blue,pink);
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  height: 50%;
+  padding: 20px;
+  border: 05px solid #851ccc;
+  flex-direction: column;
+  /* background-color:#000000a2 ; */
+  background: linear-gradient(pink,blue);
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #e2bad9;
+  color: #000000;
+  border-radius: 6px;
+}
